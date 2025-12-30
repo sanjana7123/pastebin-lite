@@ -62,6 +62,41 @@ npm run dev
 Open:
 👉 http://localhost:3000
 
+## 🌐 Deployed Application
+
+The application is deployed and publicly accessible at:
+
+👉 Deployed Link:
+https://pastebin-lite-amber.vercel.app
+
+This live version allows users to create and view pastes without running the project locally.
+
+## 🚀 How to Use the Application (for Users)
+
+Open the deployed link in any browser.
+
+Paste or type text into the text area on the home page.
+
+Click “Create Paste”.
+
+A unique link will be generated for the paste.
+
+Share the generated link with others.
+
+Opening the link displays the pasted content directly in the browser.
+
+The paste link is publicly accessible and does not require login.
+
+## 🧪 Example Usage
+
+User enters text:
+"Hello, this is my paste"
+
+Application generates a link like:
+https://pastebin-lite-amber.vercel.app/p/ABC123
+
+Anyone with the link can view the pasted content.
+
 ## 🗄 Persistence Layer
 
 The application uses Upstash Redis for persistence.
