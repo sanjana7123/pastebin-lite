@@ -3,7 +3,6 @@
 Pastebin Lite is a simple full-stack web application inspired by Pastebin.  
 It allows users to create a text paste, generate a shareable link, and view the paste until it expires or reaches a view limit.
 
-This project is built as part of a take-home assignment and is designed to be compatible with automated backend testing.
 
 ---
 
