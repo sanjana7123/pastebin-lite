@@ -73,47 +73,47 @@ This live version allows users to create and view pastes without running the pro
 
 ## 🚀 How to Use the Application (for Users)
 
-Open the deployed link in any browser.
+- Open the deployed link in any browser.
 
-Paste or type text into the text area on the home page.
+- Paste or type text into the text area on the home page.
 
-Click “Create Paste”.
+- Click “Create Paste”.
 
-A unique link will be generated for the paste.
+- A unique link will be generated for the paste.
 
-Share the generated link with others.
+- Share the generated link with others.
 
-Opening the link displays the pasted content directly in the browser.
+- Opening the link displays the pasted content directly in the browser.
 
-The paste link is publicly accessible and does not require login.
+- The paste link is publicly accessible and does not require login.
 
 ## 🧪 Example Usage
 
-User enters text:
+- User enters text:
 "Hello, this is my paste"
 
-Application generates a link like:
+- Application generates a link like:
 https://pastebin-lite-amber.vercel.app/p/ABC123
 
-Anyone with the link can view the pasted content.
+- Anyone with the link can view the pasted content.
 
 ## 🗄 Persistence Layer
 
-The application uses Upstash Redis for persistence.
-This ensures data survives across serverless requests and works correctly on Vercel.
+- The application uses Upstash Redis for persistence.
+- This ensures data survives across serverless requests and works correctly on Vercel.
 
 ## 📦 Deployment
 
-The application is deployed on Vercel using GitHub integration.
+- The application is deployed on Vercel using GitHub integration.
 
-Environment variables are securely configured in the Vercel dashboard and are not committed to the repository.
+- Environment variables are securely configured in the Vercel dashboard and are not committed to the repository.
 
 ## ✅ Notes
 
-No secrets are committed to GitHub
+- No secrets are committed to GitHub
 
-No in-memory-only storage is used
+- No in-memory-only storage is used
 
-Backend logic is serverless-safe
+- Backend logic is serverless-safe
 
-UI is intentionally simple; backend correctness is prioritized
+- UI is intentionally simple; backend correctness is prioritized
