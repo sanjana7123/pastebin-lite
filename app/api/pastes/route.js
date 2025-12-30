@@ -20,6 +20,8 @@ export async function POST(req) {
 
   return Response.json({
     id,
-    url: `${process.env.NEXT_PUBLIC_BASE_URL}/p/${id}`,
+    // return a relative URL so deployments that don't set NEXT_PUBLIC_BASE_URL
+    // still work. The client will build an absolute URL if needed.
+    url: `/p/${id}`,
   });
 }

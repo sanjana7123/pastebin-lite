@@ -26,7 +26,12 @@ export default function Home() {
     }
 
     const data = await res.json();
-    setUrl(data.url);
+    // Build an absolute URL client-side. Server returns a relative URL by default
+    // so we ensure the user sees a working absolute link even if env is missing.
+    const finalUrl = data.url && (data.url.startsWith("http://") || data.url.startsWith("https://"))
+      ? data.url
+      : `${location.origin}${data.url ?? `/p/${data.id}`}`;
+    setUrl(finalUrl);
     setLoading(false);
   }
 
